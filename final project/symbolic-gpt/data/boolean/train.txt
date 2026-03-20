@@ -1,0 +1,13 @@
+(FalseORFalse)ANDTrue=False
+TrueORTrue=True
+NOTFalse=True
+FalseXORTrue=True
+TrueANDFalse=False
+(TrueORFalse)ANDTrue=True
+TrueORFalse=True
+FalseANDFalse=False
+NOTTrue=False
+FalseORFalse=False
+FalseXORFalse=False
+TrueXORFalse=True
+(TrueANDFalse)ORTrue=True
