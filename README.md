@@ -1,62 +1,38 @@
-# Machine Learning Assignments 🤖📊
+# Machine Learning Assignments
 
-Weekly ML assignments and a final project completed as part of the MSc Computer Science programme at **Trinity College Dublin**. Built using Python and Jupyter Notebooks.
+Weekly ML assignments and final project from my MSc at Trinity College Dublin. The module started from the basics and moved into building and evaluating real models. The final project pulled everything together on an end-to-end problem.
 
-## Overview
+All notebooks are in Python.
 
-This repository documents my progression through core machine learning concepts — from foundational algorithms to advanced model training — culminating in a final project that applies learned techniques to a real-world problem.
+## What's covered
 
-## Topics Covered
+- Linear and logistic regression
+- Decision trees and SVMs
+- K-Means clustering and PCA
+- Random forests and gradient boosting
+- Neural networks: feedforward, CNNs, RNNs
+- Model evaluation: cross-validation, ROC/AUC, confusion matrices
+- Regularisation and hyperparameter tuning
+- Final project: full ML pipeline from raw data to evaluated model
 
-- Supervised learning: Linear Regression, Logistic Regression, Decision Trees, SVMs
-- Unsupervised learning: K-Means Clustering, PCA, Dimensionality Reduction
-- Ensemble methods: Random Forests, Gradient Boosting, XGBoost
-- Neural Networks: Feedforward, CNNs, RNNs
-- Model evaluation: Cross-validation, ROC/AUC, Confusion Matrices
-- Hyperparameter tuning and regularisation techniques
-- Final project: Applied ML problem with full pipeline (data preprocessing → training → evaluation)
+## Tools used
 
-## Tech Stack
+- Python 3
+- Scikit-learn
+- TensorFlow / Keras
+- Pandas and NumPy
+- Matplotlib and Seaborn
+- Jupyter Notebook
 
-| Tool | Purpose |
-|------|---------|
-| Python 3 | Core language |
-| Scikit-learn | ML algorithms |
-| TensorFlow / Keras | Deep learning |
-| Pandas / NumPy | Data manipulation |
-| Matplotlib / Seaborn | Data visualisation |
-| Jupyter Notebook | Interactive development |
+## Running the notebooks
 
-## Repository Structure
-
-```
-machine-learning/
-├── week_01/         # Intro to ML & Linear Regression
-├── week_02/         # Classification Algorithms
-├── week_03/         # Unsupervised Learning
-├── .../
-└── final_project/   # End-to-end ML project
+```bash
+git clone https://github.com/gauravnaudiyal/machine-learning.git
+cd machine-learning
+pip install scikit-learn pandas numpy matplotlib seaborn jupyter tensorflow
+jupyter notebook
 ```
 
-## Getting Started
+Navigate to any weekly folder and open the notebook.
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/gauravnaudiyal/machine-learning.git
-   ```
-2. Install dependencies:
-   ```bash
-   pip install scikit-learn pandas numpy matplotlib seaborn jupyter tensorflow
-   ```
-3. Launch Jupyter:
-   ```bash
-   jupyter notebook
-   ```
-
-## Academic Context
-
-Completed as part of the **Machine Learning** module in the MSc Computer Science programme at Trinity College Dublin.
-
----
-
-*Developed by [Gaurav Naudiyal](https://github.com/gauravnaudiyal) — MSc Computer Science, Trinity College Dublin*
+Developed by Gaurav Naudiyal, MSc Computer Science, Trinity College Dublin.
